@@ -57,18 +57,6 @@ function Button({
         large,
         // type,
     });
-    console.log({
-        [className]: className,
-        [type]: type,
-        // primary,
-        // outline,
-        // rounded,
-        text,
-        disabled,
-        small,
-        large,
-        // type,
-    });
 
     return (
         <Comp className={classes} {...props}>
